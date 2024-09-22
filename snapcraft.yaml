@@ -30,7 +30,7 @@ confinement: strict
 
 parts:
   txtx-install:
-    source: https://github.com/txtx/txtx/releases/download/vv0.1.7/txtx-linux-x64.tar.gz
+    source: https://github.com/txtx/txtx/releases/download/v0.1.7/txtx-linux-x64.tar.gz
     plugin: dump
     source-type: tar
     organize: 
