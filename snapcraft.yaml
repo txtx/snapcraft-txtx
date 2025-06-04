@@ -23,14 +23,14 @@ description: |
   By utilizing Txtx, developers can leverage these runbooks to create reproducible workflows, which are essential for maintaining robustness in blockchain operations. 
   The Txtx toolchain also includes a dashboard that aids in the execution and monitoring of these runbooks, providing a comprehensive solution for web3 developers. 
   This innovation addresses the current gaps in web3 developer tooling, such as the lack of standardization and composability, and paves the way for more efficient and collaborative blockchain development.
-version: 'v0.2.18'
+version: 'v0.2.19'
 
 base: core22
 confinement: strict
 
 parts:
   txtx-install:
-    source: https://github.com/txtx/txtx/releases/download/v0.2.18/txtx-linux-x64.tar.gz
+    source: https://github.com/txtx/txtx/releases/download/v0.2.19/txtx-linux-x64.tar.gz
     plugin: dump
     source-type: tar
     organize: 
